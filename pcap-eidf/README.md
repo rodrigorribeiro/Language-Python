@@ -26,6 +26,26 @@ You need to specify only on argument, example:
 python pcap-eidf.py file.pcap
 ```
 
+The result example:
+
+```sh
+------------------------------------------------
+|    PCAP - Extract Images and Detect Faces    |
+------------------------------------------------
+
+[*] Extracted: 4 images
+[*] Detected: 2 faces
+```
+
+Two new folders will be created:
+```sh
+pictures
+faces
+```
+
+pictures -> All images extracted from the pcap will be saved here.
+faces -> All faces detected in images files will be here, if you take a look the images will be contained a draw green around the face detected.
+
 ## Development setup
 
 There are no development setup.
