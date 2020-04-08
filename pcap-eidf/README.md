@@ -23,7 +23,12 @@ There are no installation.
 You need to specify only on argument, example:
 
 ```sh
-python pcap-eidf.py file.pcap
+------------------------------------------------
+|    PCAP - Extract Images and Detect Faces    |
+------------------------------------------------
+
+[!] You need to specify a pcap file!
+[-] Usage: # pcap-eidf.py file.pcap
 ```
 
 The result example:
