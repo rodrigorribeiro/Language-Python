@@ -1,7 +1,7 @@
 # PCAP - Extract Images and Detect Faces
 > Read pcap files and extract all images files and detect does images contains a face
 
-This code in python can read pcap files and extract all images files and detect does images contains a face..
+This code in python can read pcap files and extract all images files and detect does images contains a face.
 
 ## Requirements
 
