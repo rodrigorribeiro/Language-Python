@@ -148,4 +148,4 @@ if len(sys.argv) > 1:
 else:
 
 	print "[!] You need to specify a pcap file!"
-	print "[-] Usage: # pcap_eidf.py file.pcap"
+	print "[-] Usage: # pcap-eidf.py file.pcap"
