@@ -3,17 +3,11 @@
 
 This code in python can read pcap files and extract all images files and detect does images contains a face..
 
-![](header.png)
-
 ## Requirements
 
 There are some libraries requirements:
 
-os
-re
-zlib
-cv2
-scapy
+os, re, zlib, cv2, scapy
 
 ```sh
 pip install opencv-python
@@ -45,7 +39,7 @@ There are no development setup.
 
 Rodrigo Ribeiro – [@silvarribeiros](https://twitter.com/silvarribeiros) – silva.rrs@gmail.com
 
-[https://github.com/yourname/github-link](https://github.com/rodrigorribeiro/)
+[https://github.com/rodrigorribeiro/](https://github.com/rodrigorribeiro/)
 
 ## Contributing
 
