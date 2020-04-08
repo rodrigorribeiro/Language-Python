@@ -1,9 +1,8 @@
 # PCAP - Extract Images and Detect Faces
 > Read pcap files and extract all images files and detect does images contains a face
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![scapy Project][scapy-image]][scapy-url]
+[![cv2 Project][travis-image]][cv2-url]
 
 This code in python can read pcap files and extract all images files and detect does images contains a face..
 
@@ -61,11 +60,6 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
-<!-- Markdown link & img dfn's 
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
--->
+<!-- Markdown link & img dfn's -->
+[scapy-url]: https://pypi.org/project/scapy/
+[cv2]: https://pypi.org/project/opencv-python/
