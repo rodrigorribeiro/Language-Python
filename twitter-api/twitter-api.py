@@ -72,17 +72,23 @@ if len(sys.argv) > 1:
     # initialize api
     api = init_api()
 
-    # define some vars
-    searchQuery = twitter_search  # this is what we're searching for
-    maxTweets = 10000000 # Some arbitrary large number
-    tweetsPerQry = 100  # this is the max the API permits
-    fName = twitter_search + ".json" # We'll store the tweets in a json file.
+    # searching for
+    searchQuery = twitter_search
+    
+    # some large number
+    maxTweets = 10000000
+    
+    # this is the max searches the API allows
+    tweetsPerQry = 100
+    
+    # store the tweets in a json file
+    fName = twitter_search + ".json"
 
     # verify if offset file exists
     append_write = verify_offset(fName)
 
-    # If results only below a specific ID are, set max_id to that ID.
-    # else default to no upper limit, start from the most recent tweet matching the search query.
+    # If results only below a specific ID are, set max_id to that ID
+    # else default to no upper limit, start from the most recent tweet matching the search query
     max_id = -1L
 
     tweetCount = 0
@@ -104,10 +110,15 @@ if len(sys.argv) > 1:
                     print("[!] No more tweets found")
                     break
                 for tweet in new_tweets:
+                    # create a dictionary
                     dict = tweet._json
+                    # extract id from the dictionary
                     id = dict["id"]
+                    # check and define the biggest id
                     set_global_id(id)
+                    # save the biggest id into a file offset
                     save_offset(glb_id, twitter_offset_file)
+                    # write results into a json file
                     f.write(jsonpickle.encode(tweet._json, unpicklable=False) + "\n")
                 tweetCount += len(new_tweets)
                 print("[+] Downloaded {0} tweets".format(tweetCount))
