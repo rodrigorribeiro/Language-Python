@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2.7
 
 __author__ = "Rodrigo Ribeiro"
 __version__ = "1.0.0"
