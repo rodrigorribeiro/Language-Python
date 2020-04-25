@@ -67,6 +67,7 @@ Rodrigo Ribeiro – [@silvarribeiros](https://twitter.com/silvarribeiros) – si
 This code was adapted from an original project:
 
 How to use Twitter’s Search REST API most effectively.
+
 https://bhaskarvk.github.io/2015/01/how-to-use-twitters-search-rest-api-most-effectively./
 
 ## Contributing
