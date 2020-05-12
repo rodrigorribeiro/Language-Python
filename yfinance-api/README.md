@@ -48,7 +48,7 @@ The result example:
 
 The new file will be created:
 ```sh
-ITUB4.csv
+ITUB4.sa.csv
 ```
 
 ## Development setup
